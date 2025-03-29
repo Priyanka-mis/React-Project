@@ -18,11 +18,11 @@ function FormPage() {
       age: age
     };
 
-    // Save in sessionStorage to access in next page
-    sessionStorage.setItem("formData", JSON.stringify(formData));
+    // Save in localStorage to access in next page
+    localStorage.setItem("formData", JSON.stringify(formData));
 
     navigate("/display");
-  };
+  }
 
   return (
     <div style={{ textAlign: "center", marginTop: "50px" }}>

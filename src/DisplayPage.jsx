@@ -4,7 +4,7 @@ function DisplayPage() {
   const [formData, setFormData] = useState(null);
 
   useEffect(() => {
-    const storedData = sessionStorage.getItem("formData");
+    const storedData = localStorage.getItem("formData");
     console.log(storedData)
     if (storedData) {
       setFormData(JSON.parse(storedData));
