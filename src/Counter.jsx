@@ -66,10 +66,7 @@ function Counter(){
       <button onClick={remove}>Remove</button>
       <button onClick={reset}>Reset</button>
     </div>
-
   )
-
-
 }
 
 export default Counter
